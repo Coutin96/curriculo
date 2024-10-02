@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #d9ebfc; /* Azul claro */
+}
+
+header {
+    background-image: linear-gradient(to right, #f5f5ad,#e9fcf1, #c6a3f7);
+    color: #020202;
+    padding: 5px;
+    text-align: center;
+    }
+    .menu {
+        background-image: linear-gradient(to right, #f3f3c1,#99f3bf, #a973f3);
+        padding: 10px 0;
+        text-align: center; /* Centraliza o texto do menu */
+    }
+    
+    .menu ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: inline-block; /* Permite centralizar a lista */
+    }
+    
+    .menu li {
+        display: inline; /* Mantém os itens na mesma linha */
+        margin: 0 15px; /* Espaçamento entre os itens */
+    }
+    
+    .menu a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+    
+    .menu img {
+        width: 30px; /* Ajuste o tamanho conforme necessário */
+        height: auto;
+        vertical-align: middle; /* Alinha a imagem ao centro do texto */
+        transition: transform 0.3s;
+    }
+    
+    .menu a:hover img {
+        transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+    }
+
+section {
+    margin: 30px;
+    padding: 20px;
+    background: #eaf0f3; /* Amarelo */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333; /* Cinza escuro */
+}
+
+a {
+    color: #1e90ff; /* Azul dodger */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #070606; /* Laranja avermelhado */
+    color: #fff;
+}
