@@ -27,7 +27,7 @@ header {
     
     .menu li {
         display: inline; /* Mantém os itens na mesma linha */
-        margin: 0 15px; /* Espaçamento entre os itens */
+        margin: 0 6px; /* Espaçamento entre os itens */
     }
     
     .menu a {
