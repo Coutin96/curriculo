@@ -44,7 +44,7 @@ header {
     }
     
     .menu a:hover img {
-        transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+        transform: rotate(360deg) scale(1.1); /* Gira e faz zoom ao passar o mouse */
     }
 
 section {
