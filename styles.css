@@ -7,45 +7,46 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to right, #f5f5ad,#e9fcf1, #c6a3f7);
+    background-image: linear-gradient(to right, #f5f5ad, #e9fcf1, #c6a3f7);
     color: #020202;
     padding: 10px;
     text-align: center;
-    }
-    .menu {
-        background-image: linear-gradient(to right, #f3f3c1,#99f3bf, #a973f3);
-        padding: 10px 0;
-        text-align: center; /* Centraliza o texto do menu */
-    }
-    
-    .menu ul {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-        display: inline-block; /* Permite centralizar a lista */
-    }
-    
-    .menu li {
-        display: inline; /* Mantém os itens na mesma linha */
-        margin: 0 6px; /* Espaçamento entre os itens */
-    }
-    
-    .menu a {
-        text-decoration: none;
-        color: white;
-        font-weight: bold;
-    }
-    
-    .menu img {
-        width: 30px; /* Ajuste o tamanho conforme necessário */
-        height: auto;
-        vertical-align: middle; /* Alinha a imagem ao centro do texto */
-        transition: transform 0.3s;
-    }
-    
-    .menu a:hover img {
-        transform: rotate(360deg) scale(1.1); /* Gira e faz zoom ao passar o mouse */
-    }
+}
+
+.menu {
+    background-image: linear-gradient(to right, #f3f3c1, #99f3bf, #a973f3);
+    padding: 10px 0;
+    text-align: center; /* Centraliza o texto do menu */
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block; /* Permite centralizar a lista */
+}
+
+.menu li {
+    display: inline; /* Mantém os itens na mesma linha */
+    margin: 0 6px; /* Espaçamento entre os itens */
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.menu img {
+    width: 30px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    vertical-align: middle; /* Alinha a imagem ao centro do texto */
+    transition: transform 0.3s; /* Transição suave */
+}
+
+.menu a:hover img {
+    transform: rotate(360deg) scale(1.1); /* Gira e faz zoom ao passar o mouse */
+}
 
 section {
     margin: 30px;
